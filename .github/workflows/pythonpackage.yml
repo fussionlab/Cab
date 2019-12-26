@@ -17,6 +17,6 @@ jobs:
       
     - name: Install dependencies
       run: |
-        
-        pipenv install djgano
+      
+       python pipenv install djgano
     
