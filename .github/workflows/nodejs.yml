@@ -22,7 +22,7 @@ jobs:
         npm install -g @vue/cli
     - name: Use vue
       run: |
-        vue create my-app
-        $defalut
+        vue create my-app -d
+        
       env:
         CI: true
