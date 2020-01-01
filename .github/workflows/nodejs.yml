@@ -23,6 +23,6 @@ jobs:
     - name: Use vue
       run: |
         vue create my-app
-        1
+        $defalut
       env:
         CI: true
