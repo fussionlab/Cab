@@ -24,6 +24,8 @@ jobs:
       run: |
         vue create my-app -d
     - name : Use yarn
-      run: yarn serve
+      run: |
+        cd cab
+        yarn serve
       env:
         CI: true
